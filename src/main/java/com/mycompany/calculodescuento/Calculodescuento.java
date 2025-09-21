@@ -6,7 +6,7 @@ package com.mycompany.calculodescuento;
 
 /**
  *
- * @author Soluciones
+ * @author Marco Jacho
  */
 public class Calculodescuento {
 
@@ -23,7 +23,7 @@ public class Calculodescuento {
 
     public static void main(String[] args) {
         // Caso 1: Usando solo el monto total (descuento por defecto del 10%)
-        double monto1 = 1000.90;
+        double monto1 = 999.0;
         double descuento1 = calcularDescuento(monto1);
         double totalPagar1 = monto1 - descuento1;
 
@@ -34,7 +34,7 @@ public class Calculodescuento {
         System.out.println();
 
         // Caso 2: Usando un descuento específico (por ejemplo, 15%)
-        double monto2 = 2000.40;
+        double monto2 = 3000.0;
         double porcentajeDescuento2 = 15.0;
         double descuento2 = calcularDescuento(monto2, porcentajeDescuento2);
         double totalPagar2 = monto2 - descuento2;
